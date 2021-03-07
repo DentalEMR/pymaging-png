@@ -6,7 +6,7 @@ setup(
     name = "pymaging-png",
     version = __version__,
     packages = ['pymaging_png'],
-    install_requires = ['pymaging'],
+    install_requires = ['pymaging@ git+https://github.com/DentalEMR/pymaging'],
     entry_points = {'pymaging.formats': ['png = pymaging_png.png:PNG']},
     author = "Jonas Obrist",
     author_email = "ojiidotch@gmail.com",
